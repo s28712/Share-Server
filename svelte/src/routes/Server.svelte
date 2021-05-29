@@ -1,9 +1,14 @@
 <script lang="ts">
+import { route } from '../stores/route'
+
+function click() {
+  $route = '/'
+}
 
 </script>
 
-<div>
-  Server
+<div on:click={click}>
+  Link
 </div>
 
 <style></style>
