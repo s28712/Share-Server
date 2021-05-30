@@ -1,13 +1,9 @@
 <script lang="ts">
-  import { route } from '../stores/route'
-  
-  function click() {
-    $route = '/'
-  }
+import Back from '../components/Back.svelte'
 </script>
 
-<div>
-  <div on:click={click}>Link</div>
-</div>
+<Back />
 
-<style></style>
+<style>
+
+</style>

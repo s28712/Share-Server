@@ -4,7 +4,7 @@
 
 <div class="outer">
   <div class="section">
-    <Icon ico="Upload" />
+    <Icon ico="Server" />
   </div>
   <div class="bg">
     <div class="line"></div>
