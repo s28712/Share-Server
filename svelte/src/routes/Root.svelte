@@ -10,7 +10,7 @@
     <div class="line"></div>
   </div>
   <div class="section">
-    <Icon ico="Download" />
+    <Icon ico="Upload" />
   </div>
 </div>
 

@@ -3,7 +3,7 @@
 
 	import Root from './routes/Root.svelte'
 	import Server from './routes/Server.svelte'
-	import Download from './routes/Download.svelte'
+	import Upload from './routes/Upload.svelte'
 
 	import { route } from './stores/route'
 	let curr = Root;
@@ -18,8 +18,8 @@
 			case '/':
 				curr = Root;
 				break;
-			case '/download':
-				curr = Download;
+			case '/upload':
+				curr = Upload;
 				break;
 			case '/server':
 				curr = Server;

@@ -25,6 +25,7 @@
     "typescript": "^4.0.0"
   },
   "dependencies": {
+    "dropzone": "^5.9.2",
     "sirv-cli": "^1.0.0"
   }
 }
